@@ -65,25 +65,24 @@ header {
     font-size: 20px;
 }
 
-.item-tag-blue {
+.item-tag {
+    padding: 6px 8px;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.bg-blue {
     background-color: rgb(43, 141, 226);
-    padding: 6px 8px;
-    border-radius: 16px;
-    color: white;
-    font-size: 16px;
-    letter-spacing: 1px;
 }
 
-.item-tag-green {
+
+.bg-green {
     background-color: rgb(17, 163, 97);
-    padding: 6px 8px;
-    border-radius: 16px;
-    color: white;
-    font-size: 16px;
-    letter-spacing: 1px;
 }
 
-.item-tag-orange {
+.bg-orange {
     background-color: rgb(186, 161, 19);
     padding: 6px 8px;
     border-radius: 16px;
@@ -92,7 +91,7 @@ header {
     letter-spacing: 1px;
 }
 
-.item-tag-red {
+.bg-red {
     background-color: rgb(192, 46, 119);
     padding: 6px 8px;
     border-radius: 16px;
@@ -102,7 +101,7 @@ header {
 }
 
 
-.item-tag-violet {
+.bg-violet {
     background-color: blueviolet;
     padding: 6px 8px;
     border-radius: 16px;
@@ -144,5 +143,6 @@ header {
 
 .headcomponent {
     border-bottom: 1px solid #c9c9c9;
-    padding-bottom: 24px;
+    padding-bottom: 32px;
     margin: 0;
+}
