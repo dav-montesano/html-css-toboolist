@@ -12,7 +12,17 @@ body {
 
 header {
     background-color: white;
-    padding: 16px;
+    padding: 16px 32px;
+}
+
+.logo-box {
+    width: 200px;
+    overflow: hidden;
+}
+
+.logo-box img {
+    width: 100%;
+    object-fit: cover;
 }
 
 /* main {
@@ -36,7 +46,7 @@ header {
 .subcomponent {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
 }
 
 .item {
@@ -57,6 +67,19 @@ header {
     height: 32px;
     text-align: center;
     line-height: 24px;
+    font-size: 20px;
+}
+
+.item-false {
+    border: 1px solid rgb(180, 36, 0);
+    color: rgb(221, 15, 0);
+    padding: 4px;
+    border-radius: 100%;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 20px;
     font-size: 20px;
 }
 
@@ -124,12 +147,13 @@ header {
 }
 
 .button-task-main {
-    background-color: rgb(89, 178, 242);
+    background-color: rgb(0, 0, 0);
+    color: white;
     padding: 8px 12px;
     border-radius: 8px;
     font-size: 16px;
     letter-spacing: 1px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .button-task-outline {
