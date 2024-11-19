@@ -146,6 +146,12 @@ header {
     display: none;
 }
 
+.headcomponent {
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom: 32px;
+}
+
+
 .button-task-main {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -154,6 +160,8 @@ header {
     font-size: 16px;
     letter-spacing: 1px;
     font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    
 }
 
 .button-task-outline {
@@ -162,11 +170,11 @@ header {
     border: 1px solid #cccccc;
     font-size: 16px;
     letter-spacing: 1px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
 }
 
-.headcomponent {
-    border-bottom: 1px solid #c9c9c9;
-    padding-bottom: 32px;
-    margin: 0;
-}
+/* ul {
+    list-style-type: none;
+    list-style-position: inside;
+} */
