@@ -34,7 +34,8 @@ header {
 
 .listcomponent {
     background-color: white;
-    width: 70%;
+    width: 80%;
+    max-width: 1000px;
     margin: 64px auto;
     padding: 32px 24px;
     border-radius: 16px;
@@ -149,7 +150,7 @@ header {
 .headcomponent {
     border-bottom: 1px solid #c9c9c9;
     padding-bottom: 32px;
-}
+2}
 
 
 .button-task-main {
@@ -174,7 +175,7 @@ header {
     display: inline-block;
 }
 
-/* ul {
+/* ul 
     list-style-type: none;
     list-style-position: inside;
 } */
