@@ -37,7 +37,9 @@ header {
     width: 80%;
     max-width: 1000px;
     margin: 64px auto;
-    padding: 32px 24px;
+    padding: 32px 0px;
+    /* padding-top: 32px;
+    padding-bottom: 32px; */
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -48,6 +50,10 @@ header {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+
+.padding-list {
+    padding: 0px 24px;
 }
 
 .item {
@@ -150,6 +156,9 @@ header {
 .headcomponent {
     border-bottom: 1px solid #c9c9c9;
     padding-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 2}
 
 
@@ -175,7 +184,10 @@ header {
     display: inline-block;
 }
 
-/* ul 
+ul {
     list-style-type: none;
-    list-style-position: inside;
-} */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* list-style-position: inside; */
+}
